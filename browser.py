@@ -14,6 +14,7 @@ class Browser(QMainWindow):
         self.central_widget = QWidget()
         self.setCentralWidget(self.central_widget)
         self.layout = QVBoxLayout()
+        self.layout.setContentsMargins(0, 0, 0, 0)
         self.central_widget.setLayout(self.layout)
 
         self.browser = QWebEngineView()
