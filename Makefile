@@ -24,3 +24,6 @@ load:
     pip install -r requirements.txt
 create:
     pip freeze > requirements.txt
+compile:
+    pip install pyinstaller
+    pyinstaller IZRScreen.py
